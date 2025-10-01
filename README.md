@@ -29,7 +29,9 @@ A comprehensive CSS component library featuring modern, responsive, and accessib
 - **⚡ Lightweight** - Pure CSS with no external dependencies, ensuring fast loading times.
 - **🎯 Professional** - Enterprise-ready components suitable for high-quality portfolio projects.
 - **🔧 Customizable** - Easy theming with CSS variables for quick adaptation to any brand.
-- **🚀 GitHub Pages Demo** - Live interactive demonstration available via GitHub Pages.
+- **🚀 GitHub Pages Demo** - Live interactive demonstration available at [https://gabrieldemetrioslafis.github.io/CSS-Modern-UI-Components/](https://gabrieldemetrioslafis.github.io/CSS-Modern-UI-Components/).
+
+- **🚀 Demonstração no GitHub Pages** - Demonstração interativa ao vivo disponível em [https://gabrieldemetrioslafis.github.io/CSS-Modern-UI-Components/](https://gabrieldemetrioslafis.github.io/CSS-Modern-UI-Components/).
 
 ### 🚀 Quick Start
 

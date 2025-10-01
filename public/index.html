@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Modern UI Components - Demonstração</title>
+    <link rel="stylesheet" href="../src/modern-ui.css">
+    <style>
+        body {
+            padding: var(--spacing-xl);
+            background-color: var(--light-gray);
+            color: var(--dark-gray);
+        }
+        h1, h2 {
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-lg);
+        }
+        section {
+            background-color: var(--white);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            margin-bottom: var(--spacing-xxl);
+        }
+        .button-group .btn {
+            margin-right: var(--spacing-md);
+            margin-bottom: var(--spacing-md);
+        }
+        .card-example {
+            max-width: 400px;
+            margin: var(--spacing-lg) auto;
+        }
+        .form-example {
+            max-width: 500px;
+            margin: var(--spacing-lg) auto;
+        }
+        .navbar-example {
+            margin-bottom: var(--spacing-xxl);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CSS Modern UI Components - Página de Demonstração</h1>
+            <p>Explore os componentes de UI modernos e responsivos criados por Gabriel Demetrios Lafis.</p>
+        </header>
+
+        <section>
+            <h2>Botões</h2>
+            <div class="button-group">
+                <button class="btn btn-primary">Botão Primário</button>
+                <button class="btn btn-secondary">Botão Secundário</button>
+                <button class="btn btn-success">Botão Sucesso</button>
+                <button class="btn btn-warning">Botão Aviso</button>
+                <button class="btn btn-error">Botão Erro</button>
+                <button class="btn btn-outline">Botão Contorno</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Cards</h2>
+            <div class="card card-example">
+                <div class="card-header">Título do Card</div>
+                <div class="card-body">
+                    <p>Este é o corpo do card. Aqui você pode colocar qualquer conteúdo, como texto, imagens ou outros componentes.</p>
+                    <button class="btn btn-primary mt-3">Ação do Card</button>
+                </div>
+                <div class="card-footer">Rodapé do Card</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formulários</h2>
+            <form class="form-example">
+                <div class="form-group">
+                    <label for="inputName" class="form-label">Nome:</label>
+                    <input type="text" id="inputName" class="form-input" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="form-label">Email:</label>
+                    <input type="email" id="inputEmail" class="form-input" placeholder="seu@email.com">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <section class="navbar-example">
+            <h2>Barra de Navegação</h2>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <a href="#" class="navbar-brand">Brand</a>
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="navbar-link">Home</a></li>
+                        <li><a href="#" class="navbar-link">Sobre</a></li>
+                        <li><a href="#" class="navbar-link">Serviços</a></li>
+                        <li><a href="#" class="navbar-link">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <section>
+            <h2>Utilitários e Grid</h2>
+            <h3>Alinhamento de Texto</h3>
+            <p class="text-center">Texto Centralizado</p>
+            <p class="text-left">Texto à Esquerda</p>
+            <p class="text-right">Texto à Direita</p>
+
+            <h3>Grid Responsivo</h3>
+            <div class="grid grid-3">
+                <div style="background-color: var(--info-color); color: white; padding: var(--spacing-md); border-radius: var(--radius-sm);">Item 1</div>
+                <div style="background-color: var(--info-color); color: white; padding: var(--spacing-md); border-radius: var(--radius-sm);">Item 2</div>
+                <div style="background-color: var(--info-color); color: white; padding: var(--spacing-md); border-radius: var(--radius-sm);">Item 3</div>
+            </div>
+        </section>
+
+        <footer class="author-signature"></footer>
+    </div>
+</body>
+</html>
